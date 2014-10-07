@@ -8,9 +8,9 @@ System.out.println("The World");
 //Statements: declarations, assignments,
 //method calls, etc.
 int x = 3;
-String name = “Dirk”;
+String name = "Dirk";
 x = x * 17;
-System.out.print(“x is ” + x);
+System.out.print("x is " + x);
 double d = Math.random();
 
 
@@ -23,22 +23,22 @@ x = x - 1;
 }
 
 for (int x = 0; x < 10; x = x + 1) {
-System.out.print(“x is now ” + x);
+System.out.print("x is now " + x);
 }
 
 //do something under this condition
 //Branching: if/else tests
 if (x == 10) {
-System.out.print(“x must be 10”);
+System.out.print("x must be 10");
 } else {
-System.out.print(“x isn’t 10”);
+System.out.print("x isn’t 10");
 }
-if ((x < 3) & (name.equals(“Dirk”))) {
-System.out.println(“Gently”);
+if ((x < 3) & (name.equals("Dirk"))) {
+System.out.println("Gently");
 }
 
 //Just a statement
-System.out.print(“this line runs no matter what”);
+System.out.print("this line runs no matter what");
 
 }
 }
