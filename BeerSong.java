@@ -1,7 +1,7 @@
 public class BeerSong {
 public static void main (String[] args) {
 
-int beerNum = 99;
+int beerNum = 5;
 String word = "bottles";
 
 
