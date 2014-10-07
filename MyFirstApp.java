@@ -22,7 +22,7 @@ while (x > 12) {
 x = x - 1;
 }
 
-for (int x = 0; x < 10; x = x + 1) {
+for (x = 0; x < 10; x = x + 1) {
 System.out.print("x is now " + x);
 }
 
