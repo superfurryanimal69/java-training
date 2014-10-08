@@ -3,8 +3,7 @@ public static void main (String[] args) {
 
 // make three sets of words to choose from. Add your own!
 
-String[] wordListOne = {"24/7","multi-Tier","30,000 foot","B-to-B","win-win","frontend","web-based","pervasive", "smart", "sixsigma","
-critical-path", "dynamic","fly a kite", "top down", "out fo the box"};
+String[] wordListOne = {"24/7","multi-Tier","30,000 foot","B-to-B","win-win","frontend","web-based","pervasive", "smart", "sixsigma","critical-path", "dynamic","fly a kite", "top down", "out fo the box"};
 
 String[] wordListTwo = {"empowered", "sticky","value-added", "oriented", "centric", "distributed","clustered", "branded","outside-the-box", "positioned",
 "networked", "focused", "leveraged", "aligned","targeted", "shared", "cooperative", "accelerated"};
