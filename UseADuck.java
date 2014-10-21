@@ -5,20 +5,22 @@ public static void main (String[] args) {
 //Local variables
 int duckSize = 0;
 String userInput = null; 
-boolean isInteger = false;
+//boolean isInteger = false;
 
 //Create a GameHelper Object to get a response from the user
 GameHelper getDuckSize = new GameHelper();
 
-while(!isInteger) {
+while(true) {
 
 try {
 
 userInput = getDuckSize.getUserInput("Enter the size of the duck you want to create");
-duckSize = Integer.decode(userInput).intValue();
+duckSize = Integer.decode(userInput);
 
 //If an error isn't thrown it means the user has entered something that can be converted in to an integer
-isInteger = true;
+//isInteger = true;
+
+break;
 
 } catch (NumberFormatException num) {
 
